@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    background-color: rgb(65, 65, 65);
+    color: aliceblue;
+    width: 100%;
+    padding: 15px;
+    position: fixed;
+    align-items: center;
+}
+
+header h1{
+    margin-right: 20px;
+    letter-spacing: 1px;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(31, 31, 31);
+    padding: 6px;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+
+nav{
+    position: absolute;
+    right: 70px;
+}
+
